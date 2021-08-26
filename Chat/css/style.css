@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'RedHatDisplay' sans;
+}
+.divide{
+    box-shadow: 5px 5px 5px 5px grey;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.wrapper{
+    
+   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 15px;
+    margin-right: 20px; */
+    margin: 10px;
+    width: 100vw;
+    
+}
+#hero{
+    border-radius: 50px 50px 0px 0px;
+    height: 200px;
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+}
+#sum{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+    
+}
+p{
+    max-width: 300px;
+    font-size: 16px;
+    color: grey;
+    font-weight: 900;
+}
+.music{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    background: hsl(225, 100%, 94%);
+    border-radius: 20px;
+}
+#change{
+    font-size: 20px;
+}
+.amount{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(26, 18, 18);
+    margin-right: 30px;
+}
+#msc{
+    margin-right: 30px;
+}
+button{
+    padding: 10px;
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 60px;
+    outline: none;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#cancel{
+    font-size: 18px;
+    margin-top: 50px;
+    color: grey;
+    font-weight: 600;
+    text-decoration: none;
+}
